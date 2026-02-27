@@ -285,11 +285,11 @@ gpu: false
 insecure_tls: false
 ip_report_period: 1800
 report_delay: 4
-server: $ARGO_DOMAIN:443
+server: 127.0.0.1:8008
+tls: false
 skip_connection_count: false
 skip_procs_count: false
 temperature: false
-tls: $NZ_TLS
 use_gitee_to_upgrade: false
 use_ipv6_country_code: false
 uuid: $NZ_UUID
