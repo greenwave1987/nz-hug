@@ -295,7 +295,7 @@ use_ipv6_country_code: false
 uuid: $NZ_UUID
 EOF
 
-        log_info "探针配置: server=$ARGO_DOMAIN:443, tls=$NZ_TLS, uuid=$NZ_UUID"
+        log_info "探针配置: server=127.0.0.1:8008, tls=false, uuid=$NZ_UUID"
         
         ./nezha-agent -c /dashboard/config.yaml >/dev/null 2>&1 &
         sleep 3
